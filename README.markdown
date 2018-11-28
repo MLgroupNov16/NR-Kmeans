@@ -5,7 +5,7 @@ This starts the application in  ./src/main/scala/Example.scala, which uses the e
 **Dataset:**
 The stickfigures_3sub dataset contains 900 datas, each data contains 400 features.  
 
-**program**
+**Program**
 The algorithm file contains four programs for NR-Kmeans algorithm
 KMeansPlusPlus: Run K-means++ init on the weighted point set `data`.
 NonRedHelpers: Generates a random rotation matrix (most likely a positive definite matrix) of size d
