@@ -2,59 +2,284 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="285ab72c-e039-4e64-b11e-585362f0aa56" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Example.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/KMeansPlusPlus.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/Model.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/NonRedHelpers.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/NrKmeans.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clustering/scores/AbstractScore.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clustering/scores/MutualInformation.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clustering/scores/NormalizedMutualInformation.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clustering/scores/PairCountingF1Measure.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/DataIO.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/aloiIntro.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/aloiIntro_pca.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/stickfigures_3sub.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/syn_sub3_gauss.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statistics/EmpiricalStatistics.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/collection/RichJava.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/matrix/DataMatrixUtils.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/matrix/MatrixUtils.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataset/aloiIntro.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataset/aloiIntro_pca.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataset/stickfigures_3sub.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataset/syn_sub3_gauss.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/build.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/config-classes/$089937303fb6b39ff239$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/config-classes/$089937303fb6b39ff239.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/config-classes/$089937303fb6b39ff239.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/config-classes/$0ee219bfec0039801d81$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/config-classes/$0ee219bfec0039801d81.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/config-classes/$0ee219bfec0039801d81.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/config-classes/$24a004306f0fd668ed7a$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/config-classes/$24a004306f0fd668ed7a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/config-classes/$24a004306f0fd668ed7a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/config-classes/$2aaa1c27ed78b5599e59$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/config-classes/$2aaa1c27ed78b5599e59.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/config-classes/$2aaa1c27ed78b5599e59.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/config-classes/$33c4a9c2e4bf65a174ac$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/config-classes/$33c4a9c2e4bf65a174ac.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/config-classes/$33c4a9c2e4bf65a174ac.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/config-classes/$46be0f5e81eabd31dfa3$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/config-classes/$46be0f5e81eabd31dfa3.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/config-classes/$46be0f5e81eabd31dfa3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/config-classes/$51c34da635441d754d66$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/config-classes/$51c34da635441d754d66.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/config-classes/$51c34da635441d754d66.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/config-classes/$54dc130bd6177081307a$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/config-classes/$54dc130bd6177081307a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/config-classes/$54dc130bd6177081307a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/config-classes/$638aa7ab1d8eb82c8f88$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/config-classes/$638aa7ab1d8eb82c8f88.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/config-classes/$638aa7ab1d8eb82c8f88.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/config-classes/$9a0b302c17d8d1985f8e$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/config-classes/$9a0b302c17d8d1985f8e.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/config-classes/$9a0b302c17d8d1985f8e.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/config-classes/$c084ed5978864c6cefa7$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/config-classes/$c084ed5978864c6cefa7.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/config-classes/$c084ed5978864c6cefa7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/config-classes/$d215ec4c134374d27038$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/config-classes/$d215ec4c134374d27038.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/config-classes/$d215ec4c134374d27038.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/config-classes/$d2267bbd85c503b3788d$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/config-classes/$d2267bbd85c503b3788d.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/config-classes/$d2267bbd85c503b3788d.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/config-classes/$e486bbc4f566beca9dff$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/config-classes/$e486bbc4f566beca9dff.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/config-classes/$e486bbc4f566beca9dff.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/scala-2.12/sbt-1.0/resolution-cache/default/nr-kmeans-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/scala-2.12/sbt-1.0/resolution-cache/default/nr-kmeans-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-nr-kmeans-build-compile-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-nr-kmeans-build-compile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-nr-kmeans-build-optional.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-nr-kmeans-build-plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-nr-kmeans-build-pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-nr-kmeans-build-provided.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-nr-kmeans-build-runtime-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-nr-kmeans-build-runtime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-nr-kmeans-build-scala-tool.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-nr-kmeans-build-test-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-nr-kmeans-build-test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/scala-2.12/sbt-1.0/resolution-cache/reports/ivy-report.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/scala-2.12/sbt-1.0/resolution-cache/reports/ivy-report.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/$global/$global/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/$global/ivySbt/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/$global/projectDescriptors/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/$global/update/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/compile/$global/$global/discoveredMainClasses/data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/compile/compile/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/compile/compileIncremental/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/compile/copyResources/$global/streams/copy-resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/compile/copyResources/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/compile/dependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/compile/exportedProducts/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/compile/internalDependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/compile/unmanagedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/compile/unmanagedJars/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/runtime/dependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/runtime/exportedProducts/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/runtime/fullClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/runtime/unmanagedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/runtime/unmanagedJars/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/scala/.idea/code.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/scala/.idea/hydra.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/scala/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/scala/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/scala/.idea/sbt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/scala/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/scala/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/scala/Example.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/scala/algorithm/KMeansPlusPlus.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/scala/algorithm/Model.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/scala/algorithm/NonRedHelpers.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/scala/algorithm/NrKmeans.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/scala/clustering/scores/AbstractScore.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/scala/clustering/scores/MutualInformation.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/scala/clustering/scores/NormalizedMutualInformation.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/scala/clustering/scores/PairCountingF1Measure.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/scala/data/DataIO.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/scala/statistics/EmpiricalStatistics.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/scala/utils/collection/RichJava.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/scala/utils/matrix/DataMatrixUtils.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/scala/utils/matrix/MatrixUtils.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/.history" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/classes/.idea/code.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/classes/.idea/hydra.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/classes/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/classes/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/classes/.idea/sbt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/classes/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/classes/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/classes/Example$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/classes/Example$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/classes/Example.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/classes/algorithm/ClusterStats$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/classes/algorithm/ClusterStats.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/classes/algorithm/InitClustersAndRotation$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/classes/algorithm/InitClustersAndRotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/classes/algorithm/KMeansPlusPlus$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/classes/algorithm/KMeansPlusPlus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/classes/algorithm/NonRedHelpers$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/classes/algorithm/NonRedHelpers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/classes/algorithm/NrKmeans$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/classes/algorithm/NrKmeans.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/classes/algorithm/NrkmeansConfig$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/classes/algorithm/NrkmeansConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/classes/algorithm/Projection$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/classes/algorithm/Projection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/classes/algorithm/SubspaceClustering$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/classes/algorithm/SubspaceClustering.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/classes/algorithm/SubspaceReferrer$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/classes/algorithm/SubspaceReferrer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/classes/clustering/scores/AbstractScore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/classes/clustering/scores/MutualInformation$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/classes/clustering/scores/MutualInformation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/classes/clustering/scores/NormalizedMutualInformation$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/classes/clustering/scores/NormalizedMutualInformation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/classes/clustering/scores/PairCountingF1Measure$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/classes/clustering/scores/PairCountingF1Measure.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/classes/data/DataIO$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/classes/data/DataIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/classes/statistics/EmpiricalStatistics$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/classes/statistics/EmpiricalStatistics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/classes/utils/collection/RichJava$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/classes/utils/collection/RichJava$RichAtomicIntegerArray$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/classes/utils/collection/RichJava$RichAtomicIntegerArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/classes/utils/collection/RichJava.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/classes/utils/matrix/DataMatrixUtils$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/classes/utils/matrix/DataMatrixUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/classes/utils/matrix/MatrixUtils$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/classes/utils/matrix/MatrixUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/nr-kmeans/nr-kmeans$sources/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/nr-kmeans/nr-kmeans$sources/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/nr-kmeans/nr-kmeans_2.12/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/nr-kmeans/nr-kmeans_2.12/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/ivy-report.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/ivy-report.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/nr-kmeans-nr-kmeans$sources-compile-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/nr-kmeans-nr-kmeans$sources-compile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/nr-kmeans-nr-kmeans$sources-optional.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/nr-kmeans-nr-kmeans$sources-plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/nr-kmeans-nr-kmeans$sources-pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/nr-kmeans-nr-kmeans$sources-provided.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/nr-kmeans-nr-kmeans$sources-runtime-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/nr-kmeans-nr-kmeans$sources-runtime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/nr-kmeans-nr-kmeans$sources-scala-tool.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/nr-kmeans-nr-kmeans$sources-test-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/nr-kmeans-nr-kmeans$sources-test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/nr-kmeans-nr-kmeans_2.12-compile-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/nr-kmeans-nr-kmeans_2.12-compile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/nr-kmeans-nr-kmeans_2.12-optional.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/nr-kmeans-nr-kmeans_2.12-plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/nr-kmeans-nr-kmeans_2.12-pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/nr-kmeans-nr-kmeans_2.12-provided.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/nr-kmeans-nr-kmeans_2.12-runtime-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/nr-kmeans-nr-kmeans_2.12-runtime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/nr-kmeans-nr-kmeans_2.12-scala-tool.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/nr-kmeans-nr-kmeans_2.12-test-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/nr-kmeans-nr-kmeans_2.12-test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/streams/$global/$global/dumpStructure/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/streams/$global/ivySbt/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/streams/$global/projectDescriptors/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/streams/$global/update/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/streams/$global/update/$global/streams/update_cache_2.12/inputs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/streams/compile/unmanagedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/streams/compile/unmanagedJars/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/streams/runtime/unmanagedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/streams/runtime/unmanagedJars/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/streams/test/externalDependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/streams/test/managedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/streams/test/unmanagedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/streams/test/unmanagedJars/$global/streams/export" beforeDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/project/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="SBT">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1252266655">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="2" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="properties" value="1" />
           <entry key="sbt" value="1" />
-          <entry key="scala" value="1" />
+          <entry key="scala" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Properties" value="1" />
-          <entry key="Scala" value="1" />
+          <entry key="Scala" value="2" />
           <entry key="sbt" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/Example.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -71,8 +296,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -89,10 +312,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543391403341" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543395058257" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -107,7 +332,98 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Example" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Example" />
+      <module name="Nr-Kmeans" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="code_1094" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="code_1094" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Example" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="Nr-Kmeans" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="Nr-Kmeans [file:/C:/yyyue/scalaa/NR-Kmeans/code/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="Nr-Kmeans-build [file:/C:/yyyue/scalaa/NR-Kmeans/code/]" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/build.sbt" value="3200088498" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="2073824194" />
+      </map>
+    </option>
     <option name="projectSyncType">
       <map>
         <entry key="$USER_HOME$/workspace/Nr-Kmeans" value="PREVIEW" />
@@ -138,26 +454,27 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Build" weight="0.32903227" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32903227" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" visible="true" weight="0.28064516" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.24637681" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3252818" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32903227" />
+      <window_info anchor="right" id="sbt" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -172,16 +489,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Example.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="76" column="50" selection-start-line="76" selection-start-column="50" selection-end-line="76" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Example.scala" />
     <entry file="file://$PROJECT_DIR$/project/build.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -189,6 +497,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Example.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
