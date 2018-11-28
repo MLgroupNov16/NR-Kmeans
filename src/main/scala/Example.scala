@@ -20,10 +20,10 @@ object Example extends App {
   // 以下导入了3个数据集，需要用其中一个的时候需要注释另外两个数据集
 
   // 小人数据集，有3个子空间，每个子空间k的值为3
-  val datasetFile = file"dataset/stickfigures_3sub.data"
-  val datasetName = "Stickfigures"
+  val datasetFile = file"dataset/syn_sub3_gauss.data"
+  val datasetName = "syn_sub3_gauss"
   val labelColumns =  IndexedSeq(0, 1, 2) //前三个值是在三个子空间里的label
-  val clustersPerSubspace = IndexedSeq(3,3,3)
+  val clustersPerSubspace = IndexedSeq(3,5,4)
   val noiseSpace = true //是否需要噪声空间
 
 
